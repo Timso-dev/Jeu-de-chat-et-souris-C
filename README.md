@@ -9,7 +9,7 @@ Un jeu de stratégie classique implémenté en JavaScript, déployable sur GitHu
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-**🚀 [Jouer maintenant](https://votre-username.github.io/chat-et-souris/)**
+**🚀 [Jouer maintenant](https://timso-dev.github.io/Jeu-de-chat-et-souris/)**
 
 ## 📋 Règles du jeu
 
@@ -268,8 +268,8 @@ Projet développé dans le cadre d'un cours de programmation, adaptant un cahier
 
 ## 📞 Contact
 
-- **GitHub** : [@votre-username](https://github.com/votre-username)
-- **Issues** : [Signaler un bug](https://github.com/votre-username/chat-et-souris/issues)
+- **GitHub** : [@votre-username](https://github.com/timso-dev)
+- **Issues** : [Signaler un bug](https://github.com/timso-dev/Jeu-de-chat-et-souris/issues)
 
 ---
 

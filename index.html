@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat et Souris</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>🐱🐭 Chat et Souris</h1>
+        <p>Les chats doivent éliminer les souris - Les souris doivent atteindre le refuge</p>
+    </div>
+
+    <div class="game-container">
+        <div class="game-info">
+            <div class="rules">
+                <h3>📋 Règles du jeu :</h3>
+                <p><strong>🐭 Souris :</strong> Atteignez le refuge (cases 33-41) avec 9 souris</p>
+                <p><strong>🐱 Chats :</strong> Éliminez les souris par prise (saut obligatoire)</p>
+                <p><strong>⚠️ Important :</strong> Les souris ne peuvent pas reculer</p>
+            </div>
+
+            <div class="game-status">
+                <h3>État du jeu</h3>
+                <p><strong>Tour actuel :</strong> <span id="currentPlayer">Souris</span></p>
+                <p><strong>Souris restantes :</strong> <span id="miceCount">21</span></p>
+                <p><strong>Souris au refuge :</strong> <span id="refugeCount">0</span>/9</p>
+                <p><strong>Chats :</strong> <span id="catCount">2</span></p>
+            </div>
+
+            <div class="controls">
+                <button id="newGameBtn" class="btn">🎲 Nouvelle partie</button>
+                <button id="saveGameBtn" class="btn">💾 Sauvegarder</button>
+                <button id="loadGameBtn" class="btn">📁 Charger</button>
+                <button id="undoBtn" class="btn">↩️ Annuler</button>
+            </div>
+
+            <div class="move-history">
+                <h3>📜 Historique</h3>
+                <div id="historyList"></div>
+            </div>
+        </div>
+
+        <div class="game-board-container">
+            <div class="board-legend">
+                <p><strong>Grenier :</strong> Cases 1-32 | <strong>Refuge :</strong> Cases 33-41</p>
+            </div>
+            
+            <div id="gameBoard" class="game-board">
+                <!-- Le plateau sera généré par JavaScript -->
+            </div>
+            
+            <div class="piece-legend">
+                <div class="legend-item">
+                    <span class="piece mouse">s</span> Souris
+                </div>
+                <div class="legend-item">
+                    <span class="piece cat">C</span> Chat
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="message-container">
+        <div id="message" class="message"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
